@@ -1,0 +1,110 @@
+@font-face {
+  font-family: NeueBold;
+  src: url(../resources/font/NeueBold.ttf);
+}
+@font-face {
+  font-family: NeueLight;
+  src: url(../resources/font/NueuLight.ttf);
+}
+
+button {
+  font-family: NeueBold;
+  border: solid 2px;
+  border-radius: 2px;
+}
+body {
+  font-family: NeueLight;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #de2b24;
+}
+h1 {
+  font-family: NeueBold;
+  font-size: 36px;
+}
+.string {
+  border: #ffffff;
+  border-bottom: 5px solid;
+}
+h2 {
+  font-family: NeueBold;
+  font-size: 24px;
+}
+.project_text {
+  font-family: NeueBold;
+  font-size: 18px;
+}
+.block_row {
+  letter-spacing: -0.36em;
+  font-size: 0;
+}
+
+.block_row div {
+  background-color: #f35e59;
+}
+
+.block2 {
+  background-color: #1287bf;
+}
+.round {
+  color: #ffffff;
+  border: 3px solid;
+  background-color: #1287bf;
+  border-radius: 64px;
+}
+
+.triangle {
+  border-style: solid;
+  border-width: 32px 32px;
+  border-color: transparent transparent #ffffff transparent;
+}
+
+.form_block {
+  text-align: center;
+  background-color: #ffffff;
+  color: #828282;
+  font-size: 18;
+  border-radius: 2px;
+}
+form input {
+  border: 1px solid #828282;
+  border-radius: 3px;
+}
+form > :last-child {
+  background-color: #de2b24;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.close {
+  background-color: #de2b24;
+  color: #ffffff;
+  border-radius: 45px;
+  border-color: #ffffff;
+}
+
+.block3 {
+  background-color: #2a2a2a;
+}
+.link_buttons > div {
+  border: #515151 solid;
+  border-radius: 2px;
+}
+.link_buttons div:hover {
+  border-color: #de2b24;
+}
+.block3 form input {
+  background-color: #515151;
+  border-radius: 2px;
+  border-color: #515151;
+}
+.block3 form button {
+  background-color: #2a2a2a;
+  border-radius: 2px;
+  border: solid 2px;
+  border-color: #515151;
+}
+footer {
+  background-color: #515151;
+  font-size: 18px;
+  color: #bdbdbd;
+}

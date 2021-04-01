@@ -1,0 +1,21 @@
+button {
+  cursor: pointer;
+}
+h1 {
+  padding-top: 100px;
+  margin: 0px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin: 0px;
+  margin-top: 24px;
+}
+p {
+  text-align: center;
+  margin: 0px;
+}
+footer {
+  height: 67px;
+  line-height: 67px;
+}

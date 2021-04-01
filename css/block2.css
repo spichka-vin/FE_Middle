@@ -1,0 +1,58 @@
+.block2 {
+  padding-bottom: 112px;
+}
+.round {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 18px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form_block {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 112px;
+  padding-bottom: 68px;
+}
+.form_block > :first-child {
+  margin-bottom: 40px;
+  padding-top: 50px;
+}
+.form_block form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+form input {
+  margin-bottom: 8px;
+  height: 50px;
+  padding-left: 20px;
+}
+form > :last-child {
+  width: 160px;
+  height: 46px;
+  margin-top: 28px;
+  margin-right: auto;
+  margin-left: auto;
+}
+form > :last-child p {
+  padding-top: 10px;
+}
+.close {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  margin-top: -22px;
+  margin-left: 73%;
+}

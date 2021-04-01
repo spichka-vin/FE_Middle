@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+}
+.string {
+  width: 47px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 47px;
+  margin-top: 17px;
+}
+.project_text {
+  width: 253px;
+}
+.block1 {
+  padding: 0px;
+  padding-bottom: 128px;
+}
+
+.block_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+}
+
+.block_row div {
+  width: 255px;
+  height: 255px;
+}
+
+.photo_block img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.photo_block:hover {
+  transform: scale(1.2);
+}
+.text_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text_block:hover {
+  color: #2a2a2a;
+  transform: scale(1.2);
+}
